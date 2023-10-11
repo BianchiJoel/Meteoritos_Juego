@@ -10,7 +10,10 @@ de tu disparo principal, tu rayo secundario y tu escudo, pero no olvides
 que estos últimos deben recargarse en las estaciones de recarga.
 ***
 ***Engine:*** Godot v3.2.2
+
 ***LLenguajes:*** GDScript
+
 ***Plataforma:*** PC
+
 ***Genero:*** Shmup
 ***
