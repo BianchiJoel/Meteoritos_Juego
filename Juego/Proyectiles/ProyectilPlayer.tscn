@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Juego/Proyectiles/Proyectil.tscn" type="PackedScene" id=1]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 5.28354
+height = 28.0029
+
+[node name="ProyectilPlayer" instance=ExtResource( 1 )]
+position = Vector2( 515.788, 269.731 )
+
+[node name="Sprite" parent="." index="0"]
+scale = Vector2( 1, 1 )
+
+[node name="CollisionShape2D" parent="." index="1"]
+visible = true
+position = Vector2( 0.00598145, -0.148743 )
+shape = SubResource( 1 )
+
+[node name="VisibilityNotifier2D" parent="." index="2"]
+visible = true
+position = Vector2( 9.94205e-05, -0.14865 )
+scale = Vector2( 1.94486, 0.492428 )
